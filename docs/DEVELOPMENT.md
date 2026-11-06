@@ -2,7 +2,7 @@
 
 ## Estado del proyecto
 
-La rama `codex/e1-landing-pgd` parte del entregable **E0 — Arranque**. La pantalla actual es una comprobación técnica provisional; la propuesta visual se integrará en esta misma rama durante el entregable E1.
+La rama `feature/e1-landing-pgd` parte del entregable **E0 — Arranque**. La pantalla actual es una comprobación técnica provisional; la propuesta visual se integrará en esta misma rama durante el entregable E1.
 
 ## Tecnologías
 
@@ -41,7 +41,7 @@ Laravel conserva en sus ubicaciones convencionales las rutas, pruebas, configura
 ```bash
 git clone https://github.com/vlopb/landing-pt.git
 cd landing-pt
-git switch codex/e1-landing-pgd
+git switch feature/e1-landing-pgd
 composer install
 cp .env.example .env
 php artisan key:generate
