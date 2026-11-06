@@ -6,7 +6,7 @@
 
         <title>Plataforma de Gestión Digital</title>
 
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/pgd/landing.css', 'resources/pgd/landing.js'])
     </head>
     <body class="min-h-screen bg-white text-slate-900 antialiased">
         <main class="mx-auto max-w-3xl px-6 py-12 sm:py-16">
